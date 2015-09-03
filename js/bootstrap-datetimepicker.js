@@ -113,6 +113,22 @@
     }
     this.icontype = this.fontAwesome ? 'fa' : 'glyphicon';
 
+    //Custom nav icons
+    if ('navIcons' in options) {
+      if( options.navIcons.rightIcon && options.navIcons.rightIcon ){
+        this.icons = {
+          leftArrow: options.navIcons.leftIcon,
+          rightArrow: options.navIcons.rightIcon
+        }
+
+        if( options.navIcons.iconType ){
+          this.icontype = options.navIcons.iconType;
+        }else{
+          this.icontype = 'icon';
+        }
+      }
+    }
+
     this._attachEvents();
 
     this.formatViewType = 'datetime';
