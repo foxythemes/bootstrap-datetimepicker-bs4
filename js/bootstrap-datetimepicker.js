@@ -91,7 +91,7 @@
     
     //Support for different component icon
     if ('componentIcon' in options) {
-      this.component = this.element.find('.input-group-addon ' + options.componentIcon);
+      this.component = this.element.find('.input-group-addon ' + options.componentIcon).parent();
     }
 
     this.hasInput = this.component && this.element.find('input').length;
