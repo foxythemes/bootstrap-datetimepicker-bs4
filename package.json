@@ -1,5 +1,5 @@
 {
-  "name": "@foxythemes/bootstrap-datetime-picker",
+  "name": "@foxythemes/bootstrap-datetime-picker-bs4",
   "homepage": "http://www.malot.fr/bootstrap-datetimepicker/",
   "description": "Both Date and Time picker widget based on twitter bootstrap",
   "version": "2.3.4",
